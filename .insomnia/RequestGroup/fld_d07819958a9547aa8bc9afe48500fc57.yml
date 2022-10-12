@@ -1,0 +1,10 @@
+_id: fld_d07819958a9547aa8bc9afe48500fc57
+type: RequestGroup
+parentId: wrk_69c33d1ddfd64bed91b8550df1ccb5b4
+modified: 1665267739081
+created: 1665267739081
+name: Curso NestJs
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1665267739081
