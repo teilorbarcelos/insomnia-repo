@@ -1,0 +1,25 @@
+_id: req_6666bb3b07574007a3c3d0bfa5d88f77
+type: Request
+parentId: fld_d07819958a9547aa8bc9afe48500fc57
+modified: 1665367293240
+created: 1665326092062
+url: http://localhost:3000/api/v1/players
+name: Get Players
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_ce66ab9fa5f8484485d51b4416fc1c75
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1663409087397.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

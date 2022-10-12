@@ -1,0 +1,25 @@
+_id: req_600908b7659d4a759e1f60529fe0caa3
+type: Request
+parentId: fld_d07819958a9547aa8bc9afe48500fc57
+modified: 1665367690434
+created: 1665367659793
+url: http://localhost:3000/api/v1/players
+name: Delete Player
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_ce66ab9fa5f8484485d51b4416fc1c75
+    name: email
+    value: teste1@teste.com
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1662015094482.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

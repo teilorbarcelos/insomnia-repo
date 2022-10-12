@@ -1,0 +1,30 @@
+_id: req_1d50b0ce5661497bbea8516729c38c1d
+type: Request
+parentId: fld_d07819958a9547aa8bc9afe48500fc57
+modified: 1665615276840
+created: 1665267744617
+url: http://localhost:3000/api/v1/players
+name: Create Update Player
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"phoneNumber": "12345678",
+      "email": "teste@teste.com",
+      "name": "Teilor"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1665267744617
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

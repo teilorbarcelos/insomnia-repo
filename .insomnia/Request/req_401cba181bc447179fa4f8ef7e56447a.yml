@@ -1,0 +1,25 @@
+_id: req_401cba181bc447179fa4f8ef7e56447a
+type: Request
+parentId: fld_d07819958a9547aa8bc9afe48500fc57
+modified: 1665367378686
+created: 1665367301865
+url: http://localhost:3000/api/v1/players
+name: Get Player by e-mail
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_ce66ab9fa5f8484485d51b4416fc1c75
+    name: email
+    value: teste1@teste.com
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1662479758787.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
