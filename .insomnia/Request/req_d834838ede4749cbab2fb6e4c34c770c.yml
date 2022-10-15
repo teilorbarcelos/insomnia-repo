@@ -1,0 +1,46 @@
+_id: req_d834838ede4749cbab2fb6e4c34c770c
+type: Request
+parentId: fld_d07819958a9547aa8bc9afe48500fc57
+modified: 1665854615712
+created: 1665854354812
+url: http://localhost:3000/api/v1/categories
+name: Create Category
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"category": "A",
+    	"description": "Categoria A",
+    	"events": [
+    		{
+    			"name": "Vitória",
+    			"operation": "+",
+    			"value": 30
+    		},
+    		{
+    			"name": "Vitória Líder",
+    			"operation": "+",
+    			"value": 50
+    		},
+    		{
+    			"name": "Derrota",
+    			"operation": "+",
+    			"value": 0
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664803080312.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
