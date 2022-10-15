@@ -1,28 +1,27 @@
-_id: req_d834838ede4749cbab2fb6e4c34c770c
+_id: req_bd9db2fb68f24433b1ce6450abdc4d47
 type: Request
 parentId: fld_d07819958a9547aa8bc9afe48500fc57
-modified: 1665863419453
-created: 1665854354812
-url: http://localhost:3000/api/v1/categories
-name: Create Category
+modified: 1665863451813
+created: 1665863371494
+url: http://localhost:3000/api/v1/categories/634af11a37c2f61468b89bdc
+name: Update Category
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"category": "A",
     	"description": "Categoria A",
     	"events": [
     		{
     			"name": "Vitória",
     			"operation": "+",
-    			"value": 30
+    			"value": 10
     		},
     		{
     			"name": "Vitória Líder",
     			"operation": "+",
-    			"value": 50
+    			"value": 80
     		},
     		{
     			"name": "Derrota",
@@ -36,7 +35,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1662015094470.375
+metaSortKey: -1662015094464.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

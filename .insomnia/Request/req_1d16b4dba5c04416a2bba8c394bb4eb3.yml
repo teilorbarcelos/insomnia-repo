@@ -1,0 +1,26 @@
+_id: req_1d16b4dba5c04416a2bba8c394bb4eb3
+type: Request
+parentId: fld_d07819958a9547aa8bc9afe48500fc57
+modified: 1665856991311
+created: 1665856957394
+url: http://localhost:3000/api/v1/categories/634af11a37c2f61468b89bdc
+name: Get Category by ID
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_ce66ab9fa5f8484485d51b4416fc1c75
+    name: _id
+    value: 634a03cd29faf104f329fc78
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1662015094432.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

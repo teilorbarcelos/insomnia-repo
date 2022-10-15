@@ -1,0 +1,21 @@
+_id: req_b21a376a882e47d8a407c48100aaa589
+type: Request
+parentId: fld_d07819958a9547aa8bc9afe48500fc57
+modified: 1665866150244
+created: 1665859258276
+url: http://localhost:3000/api/v1/categories/634af11a37c2f61468b89bdc/players/634a053229faf104f329fc83
+name: Add Player Category
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1662015094382.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
