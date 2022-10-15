@@ -1,18 +1,19 @@
 _id: req_401cba181bc447179fa4f8ef7e56447a
 type: Request
 parentId: fld_d07819958a9547aa8bc9afe48500fc57
-modified: 1665367378686
+modified: 1665795257766
 created: 1665367301865
-url: http://localhost:3000/api/v1/players
-name: Get Player by e-mail
+url: http://localhost:3000/api/v1/players/634a03cd29faf104f329fc78
+name: Get Player by ID
 description: ""
 method: GET
 body: {}
 parameters:
   - id: pair_ce66ab9fa5f8484485d51b4416fc1c75
-    name: email
-    value: teste1@teste.com
+    name: _id
+    value: 634a03cd29faf104f329fc78
     description: ""
+    disabled: true
 headers: []
 authentication: {}
 metaSortKey: -1662479758787.75
