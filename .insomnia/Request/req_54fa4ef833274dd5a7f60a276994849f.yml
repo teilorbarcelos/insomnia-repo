@@ -1,0 +1,39 @@
+_id: req_54fa4ef833274dd5a7f60a276994849f
+type: Request
+parentId: fld_d07819958a9547aa8bc9afe48500fc57
+modified: 1665886132866
+created: 1665877637296
+url: http://localhost:3000/api/v1/challenges
+name: Create Challenge
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date": "2022-11-30T09:58:48.841Z",
+    	"challenger": {
+    		"_id": "634b5e2e0c0b69843bbdf7a4"
+    	},
+    	"players": [
+    		{
+    		"_id": "634b5e2e0c0b69843bbdf7a4"
+    	},
+    		{
+    		"_id": "634a053229faf104f329fc83"
+    	}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1662015094332.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

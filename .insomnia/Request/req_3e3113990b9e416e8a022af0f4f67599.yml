@@ -1,22 +1,22 @@
-_id: req_401cba181bc447179fa4f8ef7e56447a
+_id: req_3e3113990b9e416e8a022af0f4f67599
 type: Request
 parentId: fld_d07819958a9547aa8bc9afe48500fc57
-modified: 1665874995579
-created: 1665367301865
-url: http://localhost:3000/api/v1/players/634a053229faf104f329fc83
-name: Get Player by ID
+modified: 1665884137987
+created: 1665878317389
+url: http://localhost:3000/api/v1/challenges
+name: Get Challenges
 description: ""
 method: GET
 body: {}
 parameters:
   - id: pair_ce66ab9fa5f8484485d51b4416fc1c75
-    name: _id
-    value: 634a03cd29faf104f329fc78
+    name: playerId
+    value: 634a053229faf104f329fc83
     description: ""
-    disabled: true
+    disabled: false
 headers: []
 authentication: {}
-metaSortKey: -1662479758787.75
+metaSortKey: -1662015094282.875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

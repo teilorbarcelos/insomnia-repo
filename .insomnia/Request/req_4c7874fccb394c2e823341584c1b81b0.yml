@@ -1,22 +1,22 @@
-_id: req_401cba181bc447179fa4f8ef7e56447a
+_id: req_4c7874fccb394c2e823341584c1b81b0
 type: Request
 parentId: fld_d07819958a9547aa8bc9afe48500fc57
-modified: 1665874995579
-created: 1665367301865
-url: http://localhost:3000/api/v1/players/634a053229faf104f329fc83
-name: Get Player by ID
+modified: 1665886552415
+created: 1665886469981
+url: http://localhost:3000/api/v1/challenges/634b4a3039339120d6d0bd2d
+name: Delete Challenge
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters:
   - id: pair_ce66ab9fa5f8484485d51b4416fc1c75
-    name: _id
-    value: 634a03cd29faf104f329fc78
+    name: email
+    value: ""
     description: ""
     disabled: true
 headers: []
 authentication: {}
-metaSortKey: -1662479758787.75
+metaSortKey: -1661782762180.4375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

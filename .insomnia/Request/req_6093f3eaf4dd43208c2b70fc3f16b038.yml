@@ -1,26 +1,25 @@
-_id: req_1d50b0ce5661497bbea8516729c38c1d
+_id: req_6093f3eaf4dd43208c2b70fc3f16b038
 type: Request
 parentId: fld_d07819958a9547aa8bc9afe48500fc57
-modified: 1665883710769
-created: 1665267744617
-url: http://localhost:3000/api/v1/players
-name: Create Player
+modified: 1665886386514
+created: 1665886107204
+url: http://localhost:3000/api/v1/challenges/634b4a3039339120d6d0bd2d
+name: Update Challenge
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"phoneNumber": "12345678",
-    	"email": "teste4@teste.com",
-    	"name": "Hama"
+    	"date": "2022-10-31T09:58:48.841Z",
+    	"status": "ACEITO"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1665267744617
+metaSortKey: -1662015094307.875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
